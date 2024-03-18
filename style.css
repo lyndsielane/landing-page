@@ -1,0 +1,15 @@
+body {
+  background-image: url(./assets/images/Abstract_Modern_Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: #e9cfbf;
+  height: 80vh;
+  width: 150vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
