@@ -28,6 +28,11 @@ body {
   text-align: center;
 }
 
+.topbar a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .left {
   float: left;
   width: 50%;
