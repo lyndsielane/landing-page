@@ -28,7 +28,7 @@ body {
   text-align: center;
 }
 
-.topbar a {
+a {
   color: inherit;
   text-decoration: inherit;
 }
@@ -37,7 +37,7 @@ body {
   float: left;
   width: 50%;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 .right {
@@ -45,4 +45,10 @@ body {
   width: 50%;
   text-align: center;
   margin-top: 8rem;
+}
+
+button {
+  padding: 0.2rem;
+  border: 2px solid #eed8cb;
+  background-color: #bda69d;
 }
