@@ -14,7 +14,8 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.topbar {
+img {
+  max-height: 300px;
 }
 
 .topbar > ul {
@@ -26,6 +27,9 @@ body {
 .topbar > ul li {
   display: inline;
   text-align: center;
+  background-color: #dcb8a7;
+  padding: 0.25rem;
+  border-radius: 5px;
 }
 
 a {
@@ -33,22 +37,16 @@ a {
   text-decoration: inherit;
 }
 
-.left {
-  float: left;
-  width: 50%;
-  text-align: center;
-  margin-top: 15rem;
-}
-
-.right {
-  float: right;
-  width: 50%;
-  text-align: center;
-  margin-top: 8rem;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
 }
 
 button {
   padding: 0.2rem;
   border: 2px solid #eed8cb;
   background-color: #bda69d;
+  border-radius: 5px;
 }
